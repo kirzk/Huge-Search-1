@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background-color: #f1f1f1;
+	height: 100vh;
+	font-size: 10px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 720px;
+	min-width: 75%;
+	margin: 0 auto;
+}
+
+header {
+	height: 25%;
+}
+
+input {
+	height: 100%;
+}
+
+
