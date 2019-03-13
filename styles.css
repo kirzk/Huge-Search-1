@@ -4,10 +4,11 @@
 }
 
 body {
-	background-color: #f1f1f1;
-	height: 100vh;
-	font-size: 10px;
 	margin: 0 auto;
+	height: 100vh;
+	background-color: #f1f1f1;
+	font-size: 10px;
+	color: #c2c2c2
 }
 
 .container {
@@ -24,4 +25,12 @@ input {
 	height: 100%;
 }
 
+ul {
+	list-style: none;
+	padding: 0%;
+}
 
+a {
+	text-decoration: none;
+	color: #c2c2c2
+}
