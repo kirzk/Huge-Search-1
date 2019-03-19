@@ -33,7 +33,7 @@ button , input {
 input {
 	height: 100%;
 	max-width: 85%;
-	min-width: 320px;
+	min-width: 280px;
 	border-bottom: 3px solid #f1f1f1;
 	font-size: 5rem;
 	font-weight: 800;
@@ -41,12 +41,13 @@ input {
 }
 
 button{
-	text-align: left;
+	position: absolute;
 	height: 110px;
 	width: 110px;
 	background-image:
 		url(huge-search-img-master/img/magnifier.svg);
 	transition: all  .3s;
+	vertical-align: bottom;
 }
 
 .results {
@@ -68,6 +69,7 @@ ul {
 	margin: 0;
 	list-style: none;
 	padding-left: 0;
+	margin-right: 0;
 	font-weight: 700;
 }
 
